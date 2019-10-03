@@ -1,0 +1,16 @@
+html {
+  font-size: 20px; 
+  font-family: "Vibes" cursive;
+p {
+  color: red;
+}
+h1 {
+  font-size: 20px;
+  text-align: center;
+}
+
+ul, li {
+  font-size: 20px;    
+  line-height: 3;
+  letter-spacing: 1px;
+}
