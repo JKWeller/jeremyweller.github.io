@@ -1,9 +1,8 @@
 html {
   font-size: 10px; 
-  font-family: "Vibes" cursive, Arial, Times New Roman;
-}
+  font-family: "Vibes" cursive, Arial, Times New Roman;}
 
-header, main {padding: 2.5rem; }
+header, main {padding: 2.5rem;}
 
 header {background-color: #ffbf80;
 	border-top-color: #595959;
@@ -11,70 +10,56 @@ header {background-color: #ffbf80;
 	border-right-color: #595959;
         border-bottom-color: #595959;
         border-style: solid;
-        border-width: .4rem
-}
+        border-width: .4rem}
 
 body {color: #99ff66;
-      background-color: #1a0d00;
-}
+      background-color: #1a0d00;}
 
 main {max-width: 200px;
       text-align: center;}
 
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-}
+img {display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 80%;}
 
-h1 {
-  font-size: 2.4rem;
-  text-align: center;}
+h1 {font-size: 2.4rem;
+    text-align: center;}
 
 h2 {font-size: 2.3rem;
     text-align: center;}
 
 h3 {font-size: 2.3rem;
     color: purple;
-    text-align: center;
-}
+    text-align: center;}
 
 h4 {font-size: 2.3rem;}
 
 h4 {text-align: center;}
 
-p {font-size: 1.9rem;
-   text-align: center;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-li {
-  font-size: 1.5rem;    
-  line-height: 1.5rem;
-  letter-spacing: 0.3rem;
-  text-align: center;
-  font-family: Ink Free;
-}
-
 h5 {font-size: 1.7rem;
 	 text-align: center;
-	 font-family: Ink Free;
-}
+	 font-family: Ink Free;}
+
+p {font-size: 1.9rem;
+   text-align: center;}
+
+ul {list-style-type: none;
+    margin: 0;
+    padding: 0;}
+
+li {font-size: 1.5rem;    
+    line-height: 1.5rem;
+    letter-spacing: 0.3rem;
+    text-align: center;
+    font-family: Ink Free;}
 
 figure {font-size: 1.8rem;}
 
 figcaption {text-align: center;}
 
 footer {font-size: 1.8rem;
-	text-align:center;
-}
-
+	text-align:center;}
 
 a:link { color: #e60001; } 
 a:visited { color: #990074; } 
