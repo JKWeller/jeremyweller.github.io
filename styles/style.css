@@ -18,7 +18,8 @@ body {color: #99ff66;
 main {max-width: 200px;
       text-align: center;}
 
-img {margin-left: auto;
+img {dispaly: block;
+     margin-left: auto;
      margin-right: auto;
      width: 80%;}
 
