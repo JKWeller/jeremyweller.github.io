@@ -1,0 +1,101 @@
+html {
+  font-size: 10px; 
+  font-family: Courier New, Arial, Times New Roman;}
+
+header {padding-top: 50px;
+  	padding-right: 30px;
+        padding-bottom: 50px;
+  	padding-left: 80px;}
+
+header {background-color: #ffbf80;
+	border-top-color: #595959;
+	border-left-color: #595959;
+	border-right-color: #595959;
+        border-bottom-color: #595959;
+        border-style: solid;
+        border-width: .4rem}
+
+body {color: #99ff66;
+      background-color: #1a0d00;}
+
+
+main {padding: 1.5rem;
+      max-width: 200px;
+      text-align: center;}
+
+img { 
+     width: 60%; 
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 80%;}
+
+.container {
+  column-count: 3;
+ column-width: 200px;}
+
+h1 {font-size: 2.3rem;
+    text-align: center;
+font-family: Ink Free;}
+
+h2 {font-size: 2.3rem;
+    text-align: center;
+font-family: Ink Free;}
+
+h3 {font-size: 2.3rem;
+    color: red;
+    text-align: center;
+font-family: Ink Free;}
+
+h4 {font-size: 2.3rem;
+    text-align: center;
+font-family: Ink Free;}
+
+h5 {font-size: 2.3rem;
+	 text-align: center;
+	 font-family: Ink Free;}
+
+p { float: left;
+    padding-left: 2em;
+    font-size: 1.9rem;
+    text-align: center;}
+
+.intro {position: relative; 
+	top: 10px;
+	left: 50px;
+	font-size: 2.5em;
+	color: #990074;
+
+ul {list-style-type: none;
+    margin: 0;
+    padding: 0;}
+
+li { clear:left;
+    font-size: 1.5rem;    
+    line-height: 1.5rem;
+    letter-spacing: 0.3rem;
+    text-align: center;
+    font-family: ink free;}
+
+figure {font-size: 1.8rem;}
+
+
+figcaption {text-align: center;
+	    font-size: 1.8rem;
+}
+
+footer {padding-top: 50px;
+        padding-right: 30px;
+  	padding-bottom: 50px;
+  	padding-left: 80px;
+	font-size: 2.8rem;
+	text-align:center;}
+
+a:link { color: #e60001; } 
+a:visited { color: #990074; } 
+a:hover { color: #cc3301; background-color: #ebebe0; text-decoration: none; } 
+a:active { color: #ebebe0; background-color: #cc3301; text-decoration: none; } 
+
+@media screen and (min-width: 321px) and (max-width: 600px);}
+
+@media screen and (max-width: 321 px) and (orientation: portrait);}
