@@ -1,0 +1,379 @@
+<html lang="en">
+  <head>
+    <style>
+      html {
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 10px;
+      }
+      body {
+        max-width: 1000px;
+        margin: auto;
+        font-size: 1.9em;
+        padding: 1em;
+      }
+      footer { 
+        border-top: 6px solid rgb(219, 66, 66); 
+        margin-top: 3em;
+        padding-top: 2em;
+      }
+  
+      section h1 { 
+        background-color: #f04747;
+        padding: .5em;;
+        border-top: 5px solid #b93838;
+        border-radius: 10px;
+        margin-left: -.5em;
+        margin-right: -.5em;
+      }
+      header h1 {
+        background-color: #da4b4b;
+        color: rgb(14, 13, 13);
+        padding: .5em;;
+        border-top: 5px solid #050505;
+        border-radius: 10px;
+        margin-left: -1em;
+        margin-right: -1em;
+      }       
+      header nav ul {
+        list-style-type: none;
+        background-color: #0a0a0a;
+      }
+      header nav ul li {
+        display: inline-block;
+      }
+      header nav ul li a {
+        color: #f8bf22;
+        display: block;
+        text-decoration: none;
+        padding: 10px;
+      }
+      header nav ul li a:hover {
+        background-color: #f8dea5;
+      }
+      #project-plan dt {
+        border-top: 2px solid #000;
+        font-weight: bold;
+        margin-top: 1em;
+        padding-top: 1em;
+      }
+      #project-plan dd:last-child {
+        border-bottom: 6px solid #000;
+        margin-bottom: 2em;
+        padding-bottom: 1em;
+        margin-left: inherit;
+        padding-left: 2em;
+      }
+      #development-guide ul li {
+        line-height: 1.5;
+      }
+      ul.structure,
+      ul.structure ul {
+        list-style: none;
+      }
+      ul.structure li.folder:before {
+        content: "\1F4C1";
+        font-size: 1.5em;
+        font-weight: bold;
+        padding-right: 0.5em;
+      }
+      ul.structure li:before {
+        content: "\1f4c4";
+        font-size: 1.5em;
+        font-weight: bold;
+        padding-right: 0.5em;
+      }
+      .colorcontainer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin: 1em;
+      }
+      .color-item {
+        border: 1px solid #000;
+        padding: 1em;
+        margin: 0.5em;
+      }
+      .color-chip {
+        width: 100px;
+        height: 100px;
+      }
+      dl.styles-guide dt {
+        font-weight: bold;
+        border-top: 1px dashed #333;
+        margin-top: 1em;
+        padding-top: 1em;
+      }
+      .code {
+        font-family: "Courier New", Courier, monospace;
+        color: #f72c2c;
+        font-size: 0.9em;
+        margin-left: 2em;
+      }
+      .highlight {
+        background-color: f7c049;
+        font-weight: bold;
+      }
+      img { width: 100%; }
+    </style>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
+    <title>Angry Moose Coffee</title>
+  </head>
+  <body>
+    <header>
+      <h1>Site: Angry Moose Coffee</h1>
+      <p>
+        Developer: Jeremy Weller<br />
+        <!-- this will automatically update with the file date; no need to change it-->
+        <span id="modified"></span>
+        <!--end date section-->
+      </p>
+      <nav>
+        <ul>
+          <li><a href="#project-plan">Project plan</a></li>
+          <li><a href="#development-guide">Development guide</a></li>
+          <li><a href="#design-guide">Design guide</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="development-guide">
+        <h1>Development guide</h1>
+        <h2>Site structure</h2>
+        <ul>
+          <li>
+            Root Directory
+            <ul>
+              <li>images directory – contains jpgs and gifs</li>
+              <li>styles directory – contains all of the style sheets</li>
+              <li>scripts directory - contains all of the javascript (if I choose to attack it)</li>
+              <li></li>
+              <li>
+                index.html – home page for site, site purpose and overview
+              </li>
+              <li>
+                shop.html - shop page to purchase product
+              </li>
+              <li>
+                about.html - about page with back story of how I started
+              </li>
+              <li>
+                contact.html - contact page...because I dont want anyone getting lost in...wait for it....the sea we call the interweb. (that ones for you professor) 
+              </li>
+            </ul>
+          </li>
+        </ul>
+
+        <h2>Visual representation of site structure</h2>
+        <ul class="structure">
+          <!-- displays as page icon unless you use class="folder" -->
+          <li class="folder">
+            Root Directory
+            <ul>
+              <li class="folder">images directory – contains jpgs and gifs</li>
+              <li class="folder">
+                styles directory – contains all of the style sheets
+              </li>
+              <li class="folder">
+                scripts directory – contains javascript
+              </li>
+              <li>
+                index.html – home page for site, site purpose and overview
+              </li>
+              <li>
+                shop.html - shop page to purchase product
+              </li>
+              <li>
+                about.html - about page with back story of how I started
+              </li>
+              <li>
+                contact.html - contact page to get ahold of me
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <h2>Navigation elements</h2>
+        <p>
+          Navigation – There is a navigation bar on <span class="highlight">(The top of the page and centered)</span> that links to all pages in the site.
+        </p>
+        <h3>Navigation structure</h3>
+        <ul>
+          <li>Home</li>
+          <li>
+            Main site page
+            <ul>
+              <li>
+                It will contain the full nav bar linked to entire directory of the website
+              </li>
+            </ul>
+          </li>
+          <li>
+            Shop
+            <ul>
+              <li>
+                 Same nav bar will be on this page however the page youre on is highlighted
+              </li>
+            </ul>
+          </li>
+          <li>
+              About
+              <ul>
+                <li>
+                  Same nav bar will be on this page however the page youre on is highlighted
+                </li>
+              </ul>
+            </li>
+            <li>
+                Contact
+                <ul>
+                  <li>
+                      Im going to start having to give out life rings instead of coffee beans.
+                  </li>
+                </ul>
+              </li>
+                  </ul>
+                </li>
+        </ul>
+        <h2>HTML template</h2>
+        <p>
+          I will be basing my pages on 
+          <a href="">this HTML template</a>.
+        </p>
+        <h2>Wireframe site</h2>
+        <p>
+          <a href="template.html">WIREFRAME</a>
+        </p>
+      </section>
+      <section id="design-guide">
+        <h1>Design guide</h1>
+        <h2>Color Palette</h2>
+        <p>
+          The following is the list of colors that may be used. Tints or changes
+          in opacity may also be used as long as they compliment each other.
+        </p>
+        <div class="colorcontainer">
+          <div class="color-item">
+            <p>Burly Wood</p>
+            <p>#E5CDA4</p>
+            <div class="color-chip" style="background-color: #E5CDA4"></div>
+          </div>
+          <div class="color-item">
+            <p>Chocolate</p>
+            <p>#BA6225</p>
+            <div class="color-chip" style="background-color: #BA6225"></div>
+          </div>
+          <div class="color-item">
+            <p>Dark Brown</p>
+            <p>#452C1D</p>
+            <div class="color-chip" style="background-color: #452C1D"></div>
+          </div>
+          <div class="color-item">
+            <p>Sienna</p>
+            <p>#966C51</p>
+            <div class="color-chip" style="background-color: #966C51"></div>
+          </div>
+          <div class="color-item">
+            <p>Burgundy</p>
+            <p>#993333</p>
+            <div class="color-chip" style="background-color: #993333"></div>
+          </div>
+        </div>
+
+        <h2>Media assets</h2>
+        <h3>General Guidelines</h3>
+        <ul>
+          <li>
+           
+            <p> <p><span class="highlight">Im going to leave this here because im not sure just yet which personal photos I want to use.</span></p>
+          </li>
+          <li>List images that are in public domain</li>
+          <li>List copyrighted images used with permission</li>
+          <li>Mention if any photos or images are your own</li>
+        </ul>
+        <h2>Styles guide 
+          <span class="highlight">
+            (Im going to leave this section partially filled. Im not a 100% on whats going where just yet)
+        </span>
+      </h2>
+        <dl class="styles-guide">
+          <dt>Background</dt>
+          <dd>
+            <p>Background is </p>
+            <p class="code">{background-color: #}</p>
+          </dd>
+          <dt>Default font</dt>
+          <dd>
+            <p>Text is Burly Wood ?, 12 pixels</p>
+            <p class="code">p { font-size: 12px; color: #E5CDA4;}</p>
+          </dd>
+          <dt>Header</dt>
+          <dd>
+            <p>
+             (Currently working it out)
+            </p>
+            <p class="code">
+              header { <br>height: px; <br>background-color: #; <br>
+                background-image: url("/images/"); <br>background-repeat: no-repeat; <br>
+                background-position: center; <br>background-size: cover;<br>}</p>
+          </dd>
+          <dt>Navigation</dt>
+          <dd>
+            <p>
+               (Currently working it out)
+            </p>
+            <p class="code">
+              nav { height: 100px; background-color: #; color: #; }
+            </p>
+          </dd>
+          <dt>Images</dt>
+          <dd>
+            <p>
+              Images will be over Coffee Image background with a Burly Wood highlights
+            </p>
+            <p class="code">
+              figure { background-color: ; border: 1px solid #; }
+            </p>
+            <p class="code">img { padding: 1.5em; }</p>
+          </dd>
+          <dt>Links</dt>
+          <dd>
+            <p>
+              Links will be Chocolate. On hover, they will have a Burgandy color.</p>
+            </p>
+            <p class="code">a { color: #BA6225 }</p>
+            <p class="code">a:hover { background-color: #993333; }</p>
+          </dd>
+        </dl>
+        <h2>Layout sketch/ This link isnt working</h2>
+        <img src="images/layout.jpg" alt="Mock-up">
+      </section>
+    </main>
+    <footer>
+      &copy;I plan on using all of my own content.
+    </footer>
+    <!-- Enable includes -->
+    <script src="../scripts/includes.js"></script>
+
+    <!-- Script below includes file date update -->
+
+    <script>
+      includeHTML();
+      // get last updated date as a new date object
+      var modDate = new Date(document.lastModified);
+      // set up some formatting options
+      var options = {
+        weekday: "long",
+        year: "numeric",
+        month: "long",
+        day: "numeric"
+      };
+      // format it
+      var modDateString = modDate.toLocaleDateString("en-US", options);
+      // display it in the document
+      document.getElementById("modified").innerHTML =
+        "Updated: " + modDateString;
+    </script>
+  </body>
+</html>
