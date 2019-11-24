@@ -3,6 +3,26 @@
   src: url(sansation_light.woff);
 }
 
+.container{
+    background-image: url("../images/creepypic.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: fixed;
+    margin-left: 22%;
+    margin-right: 22%;
+    padding-top: 1%;
+}
+
+.container{
+    background-image: url("../images/angrymoose.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: fixed;
+    margin-left: 22%;
+    margin-right: 22%;
+    padding-top: 1%;
+}
+
 body {background-color: #ffff00;
 }
 
