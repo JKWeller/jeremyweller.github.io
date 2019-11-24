@@ -1,0 +1,114 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(sansation_light.woff);
+}
+
+body {background-color: #ffff00;
+}
+
+header, main {
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;}
+
+header {background-color: #ffff00;
+	border-top-color: #ffff00;
+	border-left-color: #ffff00;
+	border-right-color: #ffff00;
+        border-bottom-color: #ffff00;
+        border-style: dotted;
+        border-width: .4rem
+}
+
+header {font-family: myFirstFont;}
+
+main {max-width: 200px;
+      text-align: center;
+      font-size: 2.0rem;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+ .colorcontainer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin: 1em;
+      }
+      .color-item {
+        border: 1px solid #000;
+        padding: 1em;
+        margin: 0.5em;
+      }
+      .color-chip {
+        width: 100px;
+        height: 100px;}
+
+nav {
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  display: block;
+}
+
+* {font-style: italic;}
+
+h1 {
+  font-size: 2.4rem;
+  text-align: center;}
+
+h3 {font-size: 2.3rem;
+    color: white;
+    text-align: center;
+}
+
+h4 {font-size: 2.3rem;}
+    
+h4 {text-align: center;}
+
+p {font-size: 1.9rem;
+   text-align: center;}
+
+li {height: 200px;
+  width: 50%;
+  background-color: #ffff00;
+  text-align: center;
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+  padding-right: 10px;
+}
+
+section {color: brown;
+	 font-family: Vladimir Script;
+	 padding: 0px;
+}
+
+figure {font-size: 1.8rem;}
+
+figcaption {text-align: center;}
+
+footer {
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  font-family: Vladimir Script;
+  font-size: 1.6rem;
+  text-align: center;
+  color: #ffff00;
+}
+
+a:link { color: #e60001; } 
+a:visited { color: #990074; } 
+a:hover { color: #808080; background-color: #ebebe0; text-decoration: none; } 
+a:active { color: #ebebe0; background-color: #cc3301; text-decoration: none; } 
