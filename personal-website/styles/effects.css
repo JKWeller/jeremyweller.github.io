@@ -1,0 +1,88 @@
+ .site-navigation{
+	font-family: 'Felipa', cursive;
+	font-size: 2em;
+	width: 100%;
+	padding: 1%;
+	display: flex;
+}
+
+
+ nav > div {
+	text-align: center;
+	flex: 0 1 400px;
+  }
+
+
+ .site-navigation a{
+	color: #c5c4c3;
+	text-decoration: none;
+	font-weight: bold;
+	letter-spacing: 3px;
+  }
+
+
+.site-navigation a:hover{
+	color: #E5CDA4
+  }
+
+
+.site-navigation .current{
+	color: #BA6225;
+}
+
+.buy-button{
+    background-color: #ba6625;
+    border: none;
+    padding: 3% 6%;
+    margin: 5%;
+    text-align: center;
+    font-size: 1.3em;
+    display: inline-block;
+    box-shadow: 0 8px 16px 0 #1a181b, 0 6px 20px 0 #1a181b;
+}
+
+.buy-button a{
+    color: #c5c4c3;
+    text-decoration: none;
+}
+
+input, textarea{
+	width: 80%;
+	padding: 3% 4%;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: none;
+	background-color: #e5cda4;
+	opacity: 80%;
+	color: black;
+  }
+
+  #submit{
+	background-color: #ba6625;
+	text-align: center;
+	font-size: 1.3em;
+	color: #c5c4c3;
+	width: 40%;
+	float: right;
+	margin-right: 20%
+	
+  }
+
+  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	color: black;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+	color: black;
+	font-weight: bold;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+	color: black;
+	font-weight: bold;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+	color: black;
+	font-weight: bold;
+  }
+
